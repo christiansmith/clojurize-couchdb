@@ -1,0 +1,1 @@
+(ns clojurize-couchdb.core)
