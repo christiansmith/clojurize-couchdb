@@ -1,5 +1,5 @@
-(ns clojurize-couchdb.test.core
-  (:use [clojurize-couchdb.core] :reload)
+(ns clojurize.test.core
+  (:use [clojurize.core] :reload)
   (:use [clojure.test]))
 
 (deftest replace-me ;; FIXME: write
