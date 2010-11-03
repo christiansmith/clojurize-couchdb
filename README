@@ -48,7 +48,6 @@ http://anvil.io/2010/10/25/clojurize-the-data-not-the-database.html
     $ lein deps
     $ lein repl
 
-
 ## License
 
 Copyright (C) 2010 Christian Smith
