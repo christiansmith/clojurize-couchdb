@@ -1,6 +1,7 @@
 # clojurize-couchdb
 
-clojurize-couchdb is an experimental CouchDB adapter implementing the Clojurize protocol. Read about Clojurize here: 
+clojurize-couchdb is an experimental [CouchDB](http://couchdb.apache.org/) adapter implementing the [Clojurize protocol](http://github.com/christiansmith/clojurize-protocol). Read about Clojurize at [anvil.io](http://anvil.io/):
+  
 http://anvil.io/2010/10/25/clojurize-the-data-not-the-database.html
 
 ## Usage
@@ -42,6 +43,9 @@ http://anvil.io/2010/10/25/clojurize-the-data-not-the-database.html
 
     
 ## Installation
+
+Add `\[clojurize-couchdb "1.0.0-SNAPSHOT"\]` to `:dependencies` in your
+project.clj file and run `lein deps`, or:
 
     $ git clone http://github.com/christiansmith/clojurize-couchdb.git
     $ cd clojurize-couchdb
