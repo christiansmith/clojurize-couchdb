@@ -3,7 +3,13 @@
   (:use [clojure.contrib.json :only (read-json json-str)])
   (:use [clojurize.core]))
 
-(def defaults {:accept :json})
+
+(def http-defaults {:accept :json})
+
+(defn request
+  [params]
+  (client/request
+   (merge http-defaults params)))
 
 (defn enclojurize
   "Translate the CouchDB response into
@@ -12,11 +18,6 @@
   (read-json (:body response)))
 
 (def declojurize json-str)
-
-(defn request
-  [params]
-  (client/request
-   (merge defaults params)))
 
 ;; URL building helpers
 
